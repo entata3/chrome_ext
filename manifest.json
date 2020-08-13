@@ -1,0 +1,12 @@
+{
+    "name": "Getting Started Example",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "content_scripts": [
+      {
+        "matches": ["https://*.twitter.com/*"],
+        "css": ["style.css"]
+      }
+    ],
+    "manifest_version": 2
+}
